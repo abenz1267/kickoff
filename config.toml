@@ -6,8 +6,7 @@ prompt = ''
 # space between window border and the content in pixel
 padding = 100
 
-# font = ''        # has been deprecated in favour of fonts list
-fonts = ['Noto Sans Mono']     # list of otf or ttf fonts. later elements work as fallback
+fonts = ['Noto Sans']     # list of otf or ttf fonts. later elements work as fallback
 font_size = 32.0
 
 [history]
@@ -15,7 +14,7 @@ decrease_interval = 48 # interval to decrease the number of launches
 
 [colors]
 # color format: rgb or rgba, if transparency is desired
-background = '#282c34ff'
+background = '#1F1F28dd'
 prompt = '#abb2bfff'
 text = '#ffffffff'          # for search results
 text_query = '#e5c07bff'    # for the search query
@@ -29,6 +28,6 @@ execute = ["KP_Enter", "Return"]
 delete = ["KP_Delete", "Delete", "BackSpace"]
 delete_word = ["ctrl+KP_Delete", "ctrl+Delete", "ctrl+BackSpace"]
 complete = ["Tab"]
-nav_up = ["Up"]
-nav_down = ["Down"]
+nav_up = ["ctrl+k"]
+nav_down = ["ctrl+j"]
 exit = ["Escape"]
